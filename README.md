@@ -11,7 +11,7 @@ https://github.com/max32002/swei-spring
 
 1. 克隆本仓库：
    ```bash
-   git clone https://github.com/Yokumii/bupt-resume-template.git
+   git clone https://github.com/Yokumii/BUPT-CV-Template
    ```
 
 2. 安装依赖：
@@ -29,10 +29,6 @@ https://github.com/max32002/swei-spring
 
 5. 查看结果：
    - 生成的 PDF 文件为 `main.pdf`
-
-## 其他说明
-
-本Latex模板参考
 
 ## 贡献指南
 
