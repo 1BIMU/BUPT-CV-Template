@@ -1,0 +1,22 @@
+# 排除个人隐私信息
+self_main.tex
+
+# 排除图片文件
+images/self_avater.jpg
+
+# 排除编译生成的文件
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+*.pdf
+
+# 排除临时文件
+*.swp
+*.swo
+*.bak
