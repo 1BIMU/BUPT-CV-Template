@@ -9,13 +9,13 @@
     \scriptsize  % 使用较小字号
     \textcolor{white}{
         % 邮箱
-        \faEnvelope \quad \href{example@bupt.edu.cn}{example@bupt.edu.cn}
+        \faEnvelope \quad \href{bimu@bupt.edu.cn}{bimu@bupt.edu.cn}
         \hspace{4em}
         % 手机号
-        \faPhone \quad  123-4567-8901
+        \faPhone \quad  133-0298-4519
         % GitHub
         \hspace{4em}
-        \faGithub \quad \href{https://github.com/example}{https://github.com/example}
+        \faGithub \quad \href{https://github.com/1BIMU}{https://github.com/1BIMU}
     }
 }
 
@@ -62,17 +62,17 @@
 \begin{figure}[h]
     \begin{minipage}{0.82\textwidth}
         \section{\makebox[\widthof{\faAddressCard}][c]{\color{BUPT_Blue}{\faAddressCard}}\quad 个人信息}
-        \begin{tabularx}{\linewidth}{p{\widthof{出生日期:}}Xp{\widthof{政治面貌:}}X}
-            姓\ \ \ \ \ \ \ \ 名: & 张三 & 
+        \begin{tabularx}{\linewidth}{p{\widthof{出生日期:2004-11-10}}Xp{\widthof{政治面貌:共青团员}}X}
+            姓\ \ \ \ \ \ \ \ 名: & 王天翼 & 
             性\ \ \ \ \ \ \ \ 别: & 男  \\
-            出生年月: & 2000年1月 & 
-            政治面貌: & 预备党员 \\
+            出生年月: & 2004年11月 & 
+            政治面貌: & 共青团员 \\
         \end{tabularx}
     \end{minipage}
     \hspace{2em}
     \begin{minipage}{0.12\textwidth}
         \setlength{\fboxsep}{0pt}
-        \doublebox{\includegraphics[width=\linewidth]{images/avatar.png}}
+        \doublebox{\includegraphics[width=\linewidth]{images/avatar.jpg}}
     \end{minipage}
 \end{figure}
 \vspace{-1em}
@@ -81,58 +81,57 @@
 \section{\makebox[\widthof{\faGraduationCap}][c]{\color{BUPT_Blue}{\faGraduationCap}}\quad 教育背景}
 \vspace{-0.5em}
 \begin{table}[h!]
-    \begin{tabularx}{\textwidth}{XXp{\widthof{2021年 -- 预计2025年7月毕业}}}
-        北京邮电大学 & 计算机科学与技术 & 2021年 -- 预计2025年7月\\
-        \textbf{GPA: 3.99/4.00} & \textbf{GPA排名: 1/100} & \textbf{综测排名: 1/100} \\
+    \begin{tabularx}{\textwidth}{XXp{\widthof{2023年 -- 预计2027年7月毕业}}}
+        北京邮电大学 & 计算机科学与技术 & 毕业年份\ \ \ 2023年 -- 预计2027年7月\\
+        \textbf{GPA: 3.75/4.00} & \textbf{GPA排名: 15/480} &\textbf{四级成绩：571}&\textbf{六级成绩：503} \\
     \end{tabularx}
 \end{table}
 \begin{tabularx}{\textwidth}{@{}XlX@{}}
-    \textbf{2023.09-2024.03} & 班级团支书 & \\
-    \textbf{2024.09-2024.12} & 学生会主席 & \\
+    \textbf{2023.09-2024.03} & 班级副团支书
 \end{tabularx}
 
 % ====================== 项目经历 ======================
 \section{\makebox[\widthof{\faChalkboardTeacher}][c]{\color{BUPT_Blue}{\faChalkboardTeacher}}\quad 在校项目}
 \vspace{0.5em}
-{\large{\textbf{智能图书馆管理系统}}} \hfill {进行中}\\
-基于Spring Boot和Vue.js开发的图书馆管理系统，实现了图书借阅、归还、预约等功能，采用微服务架构，使用Redis缓存提高系统性能。
+{\large{\textbf{医学影像检测-骨折检测}}} \hfill {完结}\\
+是Kaggle上的一个竞赛，主要使用Conv2D卷积神经网络和Dropout正则化，在竞赛的数据集上实现了90±1\%的准确率。
 
 \vspace{1em}
-{\large{\textbf{校园二手交易平台}}} \hfill {完结}\\
-使用Django框架开发的校园二手交易平台，实现了用户注册、商品发布、在线交易等功能，采用RESTful API设计，使用JWT进行用户认证。
+{\large{\textbf{基于LLAMA2的LLM流程}}} \hfill {完结}\\
+比较简单的一个对LLAMA2的一个复现，用了自回归，但是没有设置end标记和start标记，因此只能指定长度。使用了SwiGLU激活函数,RoPE编码,Transformer，以及一些其他模块。
 
 \vspace{1em}
-{\large{\textbf{基于深度学习的图像分类系统}}} \hfill {完结}\\
-使用PyTorch框架实现的图像分类系统，基于ResNet模型，在CIFAR-10数据集上达到了92\%的准确率，并开发了友好的Web界面。
+{\large{\textbf{LLM自动运维}}} \hfill {进行中}\\
+这是一个大模型的应用项目。旨在通过大模型的决策，针对网络上用户的报错进行相关处理。主要使用RAG技术对外部知识库进行检索，并使用LLM进行回答。外部知识库使用爬虫和PDF（运维相关手册）批量导入向量数据库。
 
-% ====================== 竞赛经历 ======================
-\section{\makebox[\widthof{\faTrophy}][c]{\color{BUPT_Blue}{\faTrophy}}\quad 竞赛经历}
+% ====================== 科研经历 ======================
+\section{\makebox[\widthof{\faFlask}][c]{\color{BUPT_Blue}{\faFlask}}\quad 科研经历}
 \vspace{-1em}
 \begin{table}[h!]
-    \begin{tabularx}{\textwidth}{Xp{\widthof{第零零负责人人人}}p{\widthof{国家级-第100名}}p{\widthof{2030年13月}}}
-        \textbf{2023年全国大学生数学建模竞赛} & 队长 & 全国一等奖 & 2023年9月 \\
-        \textbf{2023年"互联网+"大学生创新创业大赛} & 核心成员 & 省级金奖 & 2023年7月\\
-        \textbf{2023年ACM-ICPC亚洲区域赛} & 队员 & 铜奖 & 2023年11月\\
+    \begin{tabularx}{\textwidth}{Xp{\widthof{算法负责人}}p{\widthof{实验室项目}}p{\widthof{2023年9月}}}
+        \textbf{基于Qwen2-1.5B的文本分类优化研究} 
+        & 算法负责人 & 自研探索 & 2024.12 \\
+        \multicolumn{4}{@{}l@{}}{\faCaretRight\ 采用LoRA微调技术，在FudanNews文本数据集上进行了微调} \\
+        
+        \textbf{深度强化学习算法复现与对比研究} 
+        & 算法负责人 & 自研课题 & 2025.03 \\
+        \multicolumn{4}{@{}l@{}}{\faCaretRight\ 基于OpenAI Gym构建CartPole实验环境，完成PPO、REINFORCE、Q-learning算法复现} \\
     \end{tabularx}
 \end{table}
-
 % ====================== 技能特长 ======================
 \section{\makebox[\widthof{\faWrench}][c]{\color{BUPT_Blue}{\faWrench}}\quad 技能特长}
 \vspace{0.5em}
 \begin{itemize}
-    \item 编程语言：熟练掌握Java、Python、C++，了解Go、Rust
-    \item Web开发：熟悉Spring Boot、Django、Vue.js等框架
-    \item 数据库：熟练使用MySQL、Redis、MongoDB
+    \item 编程语言：熟练掌握Python、C，了解Java
+    \item 数据库：熟练使用MySQL
 \end{itemize}
 
 % ====================== 所获荣誉 ======================
 \section{\makebox[\widthof{\faStar}][c]{\color{BUPT_Blue}{\faStar}}\quad 所获荣誉}
-\vspace{-1em}
-\begin{multicols}{2}
-    \begin{itemize}
-        \item 2022-2023学年一等奖学金
-        \item 2022-2023学年校级优秀学生干部
-    \end{itemize}
-\end{multicols}
+\vspace{0.5em} % 增加正间距
+\begin{itemize}
+    \item 2023-2024学年三等奖学金
+\end{itemize}
+\vspace{-0.5em} % 可选：整体列表后轻微回缩
 
 \end{document}
